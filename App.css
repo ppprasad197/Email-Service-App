@@ -1,0 +1,98 @@
+/* src/App.css */
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #f0f0f0;
+}
+
+.email-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.email-container input,
+.email-container textarea {
+  width: calc(100% - 22px); /* Adjusted to fit within container with padding */
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.email-container button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.email-container button:hover {
+  background-color: #0056b3;
+}
+
+.email-container p {
+  margin-top: 10px;
+  color: green;
+}
+/* src/App.css */
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #f0f0f0;
+}
+
+.email-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.email-container input,
+.email-container textarea {
+  width: calc(100% - 22px); /* Adjusted to fit within container with padding */
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.email-container button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.email-container button:hover {
+  background-color: #0056b3;
+}
+
+.email-container p {
+  margin-top: 10px;
+  color: green;
+}

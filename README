@@ -1,0 +1,27 @@
+
+Email Service Application
+
+Overview
+This project is an email service application built with React.js and JavaScript. The application includes functionalities such as retry mechanisms, fallback between providers, idempotency, rate limiting, and status tracking.
+
+Key Features
+Retry Mechanism: Automatically retries sending emails with exponential backoff in case of failures.
+Fallback Between Providers: Uses a secondary email provider if the primary provider fails.
+Idempotency: Ensures that emails with the same unique ID are not sent more than once.
+Rate Limiting: Prevents sending too many emails in a short period.
+Status Tracking: Logs the status of each email send attempt, including success, failure, and retry attempts.
+
+Technology Stack
+Frontend: React.js
+Backend: JavaScript (Node.js)
+CSS: Standard CSS for styling
+
+Prerequisites
+Node.js (for running the development server and building the project)
+npm (Node Package Manager)
+
+to run this project : 
+npm install
+
+to run the project :
+npm start 
